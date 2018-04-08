@@ -1,0 +1,2 @@
+For ext2_cp, we have implemented the case that the third argument is a path of an existing directory, which means we can copy some file into that directory.
+However, we have not implemented the case that the third argument is a path of an existing file, in which we need to overwrite all the data into the existing file.
